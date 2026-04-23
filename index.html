@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Light in the Dark – A Journey of Restoration</title>
+
+  <!-- Fonts & CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="apple-touch-icon" href="images/icon-192.png" />
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <a href="#hero">Light in the Dark</a>
+      </div>
+      <button id="menu-toggle" class="menu-btn" aria-label="Toggle navigation menu">☰</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="blog.html" class="nav-link">Reflections</a></li>
+        <li><a href="tools.html" class="nav-link">The Refining Ground</a></li>
+        <li><a href="resources.html" class="nav-link">Resources</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO - Now more cinematic -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Light for the Wrestling Soul</h1>
+      <p class="tagline">For those rebuilding their lives through Scripture, hope, and honest struggle.</p>
+      
+      <blockquote class="scripture">
+        “The light shines in the darkness, and the darkness has not overcome it.” 
+        <span>— John 1:5</span>
+      </blockquote>
+
+      <a href="#about" class="cta">Step Into the Light</a>
+    </div>
+  </section>
+
+  <div class="transition">
+    <p>From the moment light breaks into the chaos, the journey begins — not in perfection, but in awakening.</p>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About This Space</h2>
+    <p>We live between who we are and who we were made to be. This place exists for those walking through depression, addiction, and the quiet ache of becoming whole again.</p>
+    <p>Here, truth and grace meet. Here, brokenness becomes the soil of growth.</p>
+  </section>
+
+  <div class="transition">
+    <p>To heal, the soul must first name its wounds — to see the cracks where the light can enter.</p>
+  </div>
+
+  <!-- BLOG / REFLECTIONS -->
+  <section id="blog" aria-labelledby="blog-heading">
+    <h2 id="blog-heading">Reflections & Scripture Insights</h2>
+    <div id="blog-posts"></div>
+  </section>
+
+  <div class="transition">
+    <p>Reflection is the climb — small steps of faith, guided by words that lift the heart above despair.</p>
+  </div>
+
+  <!-- REFINING GROUND -->
+  <section id="refining-ground" class="refining-ground">
+    <h2>The Refining Ground</h2>
+    <p>Healing is forged in practice — prayer, gratitude, small victories, and steady surrender. This space gathers practical exercises and spiritual habits for recovery.</p>
+    <ul>
+      <li>Daily Scripture + 3-line reflection journal</li>
+      <li>Prayer rhythm: confession, thanksgiving, petition</li>
+      <li>Grounding exercise: breath, senses, short psalm</li>
+    </ul>
+  </section>
+
+  <div class="transition">
+    <p>Through every test, the soul learns to stand — purified, steady, and rooted in grace.</p>
+  </div>
+
+  <!-- DAILY SCRIPTURE -->
+  <section id="daily-scripture" class="scripture-box">
+    <h2>Daily Scripture</h2>
+    <p id="scripture-text">“Be transformed by the renewing of your mind.” — Romans 12:2</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Light in the Dark — A faith-rooted space for honest recovery and spiritual rebuilding.</p>
+  </footer>
+
+  <!-- INSTALL BUTTON (PWA) -->
+  <button id="installBtn" style="display:none;">Install App</button>
+
+  <!-- MAIN JS -->
+  <script src="main.js"></script>
+</body>
+</html>

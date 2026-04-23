@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonies | Light in the Dark</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#000000">
+  <link rel="apple-touch-icon" href="images/icon-192.png">
+</head>
+
+<body>
+
+  <!-- Consistent Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <a href="index.html">Light in the Dark</a>
+      </div>
+      <button id="menu-toggle" class="menu-btn" aria-label="Toggle navigation menu">☰</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="blog.html" class="nav-link">Reflections</a></li>
+        <li><a href="tools.html" class="nav-link">The Refining Ground</a></li>
+        <li><a href="testimonies.html" class="nav-link active">Testimonies</a></li>
+        <li><a href="resources.html" class="nav-link">Resources</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Symbolic Hero -->
+  <section class="hero hero-testimonies">
+    <div class="hero-content">
+      <h1>Testimonies</h1>
+      <p class="tagline">Stories of God’s refining fire.<br>Real lives touched by grace in the midst of pain and restoration.</p>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- Existing Testimonies -->
+    <section class="testimonies">
+      <h2>Stories from the Forge</h2>
+      <div class="testimony-grid">
+        <blockquote>“Through the fire, I found freedom—not destruction.” – Esther</blockquote>
+        <blockquote>“Pressure revealed strength I never knew I had.” – James</blockquote>
+        <!-- Add more of your own testimonies here -->
+      </div>
+    </section>
+
+    <!-- Share Your Testimony (Audio/Video Upload) -->
+    <section class="share-testimony">
+      <h2>Share Your Testimony</h2>
+      <p>Recorded an audio or video testimony? Upload it here. Your story could encourage someone walking through the same fire.</p>
+      
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_CODE_HERE" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" name="name" required>
+        </div>
+        <div class="form-group">
+          <label>Your Email</label>
+          <input type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label>Title of Your Testimony</label>
+          <input type="text" name="title" placeholder="e.g. From Addiction to Freedom" required>
+        </div>
+        <div class="form-group">
+          <label>Your Story (optional)</label>
+          <textarea name="story" rows="4" placeholder="Briefly share what God has done..."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Upload Audio or Video (mp3, mp4, m4a, etc.)</label>
+          <input type="file" name="testimony-file" accept="audio/*,video/*">
+        </div>
+        <button type="submit">Submit Testimony</button>
+      </form>
+    </section>
+
+    <!-- Comment / Community Reflections Section -->
+    <section class="community-reflections">
+      <h2>Community Reflections</h2>
+      <p>Leave a word of encouragement or share how a testimony touched you.</p>
+      
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_CODE_HERE" method="POST">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" name="comment-name" required>
+        </div>
+        <div class="form-group">
+          <label>Your Comment / Encouragement</label>
+          <textarea name="comment" rows="5" placeholder="Write your thoughts here..." required></textarea>
+        </div>
+        <button type="submit">Post Comment</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Back to Resources -->
+  <div class="back-to-resources">
+    <a href="resources.html">← Back to Resources</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Light in the Dark — A faith-rooted space for honest recovery and spiritual rebuilding.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
